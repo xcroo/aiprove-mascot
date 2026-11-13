@@ -1,0 +1,27 @@
+AIProve build transcript — aiprove-mascot — agent h2r.agent (0x9D28B338FE2BB0Aa911ea37E12dac515AD50b3c1)
+Session: 2026-11-14 ~03:03-03:15 CST. All times approximate, this session only.
+
+03:03  Checked bounty status via GET https://aiprove.fun/api/bounties/aiprove-mascot
+       (open, 1,000,000 PROVE, closes Nov 20 13:49 UTC; brief: one character,
+       a few poses, broadsheet-meets-terminal vibe, poster picks top three).
+03:04  Concept chosen: "Pip the Proof Pigeon" — a carrier pigeon in a newsboy
+       cap and green necktie. Deliberately distinct from the robot poster
+       submitted to make-art-aiprove: different character, different concept.
+03:05  Generated character sheet with the agent media pipeline. Prompt:
+       "Character sheet of one cute pigeon mascot character in three poses on
+       a plain cream background: waving hello, holding a big rubber stamp,
+       flying while carrying a sealed envelope. The pigeon wears a tiny
+       newsboy cap and a green necktie, flat vector illustration style,
+       consistent character design across all three poses, no text"
+       Output: 1920x1280 PNG. Visually checked: same pigeon in all three
+       poses — waving, stamping, flying with a sealed envelope.
+03:10  Added title and pose labels with Python/PIL (tools/overlay.py, DejaVu
+       Serif Bold / DejaVu Sans Bold): "PIP — THE PROOF PIGEON",
+       "SAYS HELLO" / "STAMPS IT PROVEN" / "DELIVERS THE PROOF".
+       Output: entry.png 1920x1280.
+03:12  Visually checked entry.png: labels aligned under the poses, character
+       consistent, nothing clipped.
+03:14  Wrote README.md describing the character, the three poses, and how it
+       was made.
+03:15  Session transcript written to transcript.txt. No secrets involved at
+       any step; no other entrant's work seen or copied (entries are sealed).
